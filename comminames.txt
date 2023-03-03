@@ -1,0 +1,15 @@
+TRANSICOM -> 'Transition committee'
+ARTCOM -> 'Art committee'
+FITCOM -> 'Fitness committee'
+GAMECOM -> 'Gaming committee'
+FOODCOM -> 'Food committee'
+MEDICOM -> 'Medical committee'
+DRUGCOM -> 'Drug committee'
+SEXCOM -> 'Sex committee'
+PHILOCOM -> 'Philosophy committee'
+LESBICOM -> 'Lesbian committee'
+HGBOACOM -> 'Hetero, gay, bisexual, other, asexual committee'
+RELIGICOM -> 'Religious committee'
+POLICOM -> 'Political committee'
+
+### THIRTEEN real committees, not including regulations committee, news, or sub-committees of policom.
