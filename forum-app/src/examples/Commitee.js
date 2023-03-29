@@ -21,10 +21,12 @@ function Commitee () {
     return (
         <div className='Committee'>
             <h1>I am the GENCOM - general discussion etc etc.</h1>
-            {topics.map(()=>{ //...do something here, lol.
+            {topics.map((topic)=>{ //...do something here, lol.
                 
-                <div className='topics'>{topics.title}</div>
+                <h2 className='topic-title'>{topic.title}</h2>
             })}
         </div>
     )
 }
+
+export default Commitee;

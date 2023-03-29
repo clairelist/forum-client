@@ -1,8 +1,8 @@
-
+import Committee from './examples/Commitee';
 function App() {
   return (
     <div className="App">
-      DSKLAGLNSDVK
+      <Committee />
     </div>
   );
 }
