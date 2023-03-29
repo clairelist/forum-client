@@ -4,7 +4,7 @@
 //once you click on a topic, THEN the replies for that topic are displayed!
 
 
-const Topics = {
+export const Topics = {
     topic_one: {
     committee_name: 'GENCOM',
     id: 1,
