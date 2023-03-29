@@ -4,7 +4,7 @@
 //once you click on a topic, THEN the replies for that topic are displayed!
 
 
-export const Topics = {
+export const Topics = { //I need to be an array of generic (anonymous aka) objects! 
     topic_one: {
     committee_name: 'GENCOM',
     id: 1,
