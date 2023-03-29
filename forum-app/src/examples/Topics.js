@@ -4,8 +4,8 @@
 //once you click on a topic, THEN the replies for that topic are displayed!
 
 
-export const Topics = { //I need to be an array of generic (anonymous aka) objects! 
-    topic_one: {
+export const Topics = [ //I need to be an array of generic (anonymous aka) objects! 
+    {
     committee_name: 'GENCOM',
     id: 1,
     title: 'Title of a topic',
@@ -16,7 +16,7 @@ export const Topics = { //I need to be an array of generic (anonymous aka) objec
 
     },
 
-    topic_two: {
+    {
     committee_name: 'SOCCOM',
     id: 2,
     title: 'Some bullshit idk',
@@ -26,4 +26,4 @@ export const Topics = { //I need to be an array of generic (anonymous aka) objec
     last_reply: Date.now(),
 
     },
-}
+]

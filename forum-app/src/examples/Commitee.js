@@ -12,7 +12,8 @@ function Commitee () {
     fetch.current = ()=> {
         //api call here!
         //... in example case, we need only set the topics into state.
-        setTopics(Topics);
+        setTopics([...topics ]);
+        console.log(topics[0].title);
     }
 
     useEffect(()=>{
@@ -21,9 +22,11 @@ function Commitee () {
     return (
         <div className='Committee'>
             <h1>I am the GENCOM - general discussion etc etc.</h1>
-            {topics.map((topic)=>{ //...do something here, lol.
+            {topics.map((topic)=>{ 
+                <div className='topics-wrapper' key={topic.id}>
                 
                 <h2 className='topic-title'>{topic.title}</h2>
+                </div>
             })}
         </div>
     )
