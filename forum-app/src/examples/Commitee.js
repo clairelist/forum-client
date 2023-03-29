@@ -1,8 +1,5 @@
 //I DISPLAY all topics.
 
-//TODO: CREATE A DATE FORMATTER GOD DAMN IT!!!
-//IT IS IN THE UTILS DIRECTORY UNDER SOURCE
-
 import dateFinal from '../utils/dateFormatter';
 import {Topics} from './Topics';
 import {useState, useEffect, useRef} from 'react';

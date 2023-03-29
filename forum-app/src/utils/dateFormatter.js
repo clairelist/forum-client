@@ -5,7 +5,7 @@ let today = new Date();
 today.setDate(today.getDate());
 
 let year = today.getFullYear();
-let month = today.getMonth();
+let month = today.getMonth() + 1; //getMonth returns a ZERO-INDEXED NUMBERING! WHAT ???
 let day = today.getDate();
 
 function addZeros (args) {
